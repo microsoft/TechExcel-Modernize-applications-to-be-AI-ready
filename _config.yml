@@ -1,0 +1,24 @@
+title: Modernize applications to be AI ready
+description: This lab empowers students to modernize applications for AI readiness, featuring practical exercises on provisioning resources, deploying legacy apps, repackaging components, configuring Azure services for PDF ingestion, setting up PromptFlow, and integrating chatbots for enhanced functionality.
+theme: just-the-docs
+
+aux_links:
+  "TechExcel Modernize applications to be AI ready": 
+    - "https://github.com/microsoft/TechExcel-Modernize-applications-to-be-AI-ready"
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note 
+    color: purple
+  warning:
+    title: Warning
+    color: red
