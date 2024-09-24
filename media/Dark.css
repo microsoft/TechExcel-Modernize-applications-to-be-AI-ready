@@ -1,0 +1,638 @@
+﻿body, html {
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+h1 {
+    border-color:#fff;
+}
+
+#header, #topNav {
+    background-color: #000;
+}
+
+#tabHeadings {
+    background-color: #323232;
+    color: #fff;
+}
+
+.tabHeading {
+    color: #fff;
+}
+
+.tabHeading.selected {
+    color: #00ffff;
+    background-color: #323232;
+    border-bottom: 4px solid #00ffff;
+}
+
+
+#mainMenu {
+    background-color: #333;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 10px;
+}
+
+#mainMenu .menuItem:hover {
+    background-color: #777;
+}
+
+li.task .checkbox span::before {
+    color: #1d1d1d;
+    background-color: #1d1d1d;
+    border: solid 1px #fff;
+}
+
+li.task .checkbox input:checked + span::before {
+    color:#fff;
+    background-color: #04b804;
+    border-color: #04b804;
+}
+
+#instructionsFooter {
+    background-color: #323232;
+}
+
+#previous:hover, #next:hover {
+    background-color: #1d1d1d;
+}
+
+.alert {
+    background-color: #a93f3f;
+}
+
+
+.alert code {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.knowledge, code, pre code, .note, .moreKnowledge, blockquote, .activity .feedback {
+    background-color: #4a4a4a;
+}
+
+.knowledge.collapsed::after {
+    background: linear-gradient(transparent, #4a4a4a);
+}
+
+.copyable, .typeText {
+    color: #84f651;
+}
+
+.notification .pasteable, .notification .typeText {
+    color: #fff700;
+}
+
+.clickFeedbackMessage {
+    background-color: #fff;
+    color: #000;
+}
+
+input[type=button], button, label.button {
+    background-color: #666;
+    color: #fff;
+    border: solid 1px transparent;
+    outline: 1px dashed transparent;
+}
+
+input[type=button]:hover, button:hover, label.button:hover, input[type=button]:focus, button:focus, label.button:hover {
+    border: solid 1px #008eff;
+}
+
+input[type=button]:active, button:active, label.button:active {
+    background-color: #777;
+}
+
+input[type=submit]:hover, input[type=button].primary:hover, button.primary:hover {
+    border: solid 1px #0067B8;
+}
+
+input[type=submit]:focus, input[type=button]:focus, button:focus, label.button:focus {
+    outline: 1px solid #008eff;
+}
+
+input[type=submit].primary:focus, input[type=button].primary:focus, button:focus, label.button.primary:focus {
+    outline: 1px solid #fff;
+}
+
+#fullScreenMessageMask {
+    background-color: #323232;
+}
+
+#fullScreenMessageLoadingIcon, .loadingAnimation-medium, .loadingAnimation-small, .loadingAnimation-large {
+    border-color: #666;
+    border-top-color: #fff;
+}
+
+#fullScreenProgressBar {
+    background-color: #666;
+}
+
+input[type="text"], input[type="password"], input[type="search"], input[type="number"], textarea, select {
+    border: solid 1px #323232;
+    background-color: #323232;
+    color: #fff;
+}
+
+
+    
+input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, textarea:focus, select:focus {
+    border-color: #fff;
+    outline: none;
+}
+
+a {
+    color: #00ffff;
+}
+
+a:visited {
+    color: #00ffff;
+}
+
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: #666;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background: #aaa;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #777;
+}
+
+input[type=range]::-moz-range-track {
+    background: #666;
+}
+
+input[type=range]::-moz-range-thumb {
+    background: #aaa;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #777;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #444;
+}
+
+input[type=range]::-ms-thumb {
+    background: #aaa;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #888;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #555;
+}
+
+
+body {
+    scrollbar-face-color: #aaa;
+    scrollbar-shadow-color: #666;
+    scrollbar-highlight-color: #666;
+    scrollbar-3dlight-color: #666;
+    scrollbar-darkshadow-color: #666;
+    scrollbar-track-color: #666;
+    scrollbar-arrow-color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #666;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #1d1d1d;
+}
+
+
+.progressBar {
+    background-color: #666;
+}
+
+/* Pretty printing for code blocks. Used with prettify.js. */
+
+pre .str, code .str { color: #78e844; } /* string  - green */
+pre .kwd, code .kwd { color: #ffa37e; } /* keyword - dark pink */
+pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
+pre .typ, code .typ { color: #62c9ff; } /* type - light blue */
+pre .lit, code .lit { color: #3387CC; } /* literal - blue */
+pre .pun, code .pun { color: #fff; } /* punctuation - white */
+pre .pln, code .pln { color: #fff; } /* plaintext - white */
+pre .tag, code .tag { color: #62c9ff; } /* html/xml tag    - light blue */
+pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
+pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
+pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
+
+
+.prettyprint ol.linenums > li::before {
+    color: #999;
+}
+
+@media print {
+    pre .str, code .str { color: #060; }
+    pre .kwd, code .kwd { color: #006; font-weight: bold; }
+    pre .com, code .com { color: #600; font-style: italic; }
+    pre .typ, code .typ { color: #404; font-weight: bold; }
+    pre .lit, code .lit { color: #044; }
+    pre .pun, code .pun { color: #440; }
+    pre .pln, code .pln { color: #000; }
+    pre .tag, code .tag { color: #006; font-weight: bold; }
+    pre .atn, code .atn { color: #404; }
+    pre .atv, code .atv { color: #060; }
+}
+
+
+#mainMenu {
+    border: solid 1px #767676;
+}
+
+.notification {
+    background-color: #2d9ec2;
+}
+
+.notification input[type=submit], .notification input[type=button].primary, .notification button.primary {
+    color: #ffffff;
+    background-color: #37629f;
+    border: solid 1px #37629f;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.notification input[type=submit]:hover, .notification input[type=button].primary:hover, .notification button.primary:hover {
+    background-color: #3e6db1;
+    border: solid 1px #3e6db1;
+}
+
+.notification input[type=submit]:active, .notification input[type=button].primary:active, .notification button.primary:active {
+    background-color: #31578d;
+}
+
+.notification input[type=submit].primary:focus, .notification input[type=button].primary:focus, .notification button.primary:focus {
+    outline: 1px solid white;
+}
+
+.notification input[type=submit]:focus, .notification input[type=button]:focus, .notification button:focus {
+    outline: 1px solid black;
+}
+
+.notification .copyable {
+    color: #fff;
+}
+
+.dialogMask {
+    opacity: .5;
+    background-color: #fff;
+}
+
+.dialogBox {
+    background-color: #1d1d1d;
+    border: solid 1px #d8d8d8;
+}
+
+.listedNotification {
+    background-color: #323232;
+}
+
+.codeTitle {
+    background-color: #4a4a4a;
+}
+
+.negative {
+    color: orangered;
+}
+
+.positive {
+    color: #84f651;
+}
+
+
+.activity .scriptTaskList {
+    background-color: #4a4a4a;
+}
+
+.activity .scriptTask .result:before {
+    border: solid white 1px;
+}
+
+.activity .scriptTask.pass .result:before {
+    border: solid #84f651 1px;
+    content: "\e73e";
+    font-family: "labclient";
+    color: #84f651;
+}
+
+.activity .scriptTask.fail .result:before {
+    border: solid orangered 1px;
+    color: orangered;
+}
+
+.activity .scriptTask.pass .response {
+    color: #84f651
+}
+
+.activity .scriptTask.fail .response, .activity .scriptTask.error .response {
+    color: #ffa17c;
+}
+
+#timerWrapper.expiring {
+    background-color: #C91D2E;
+}
+
+
+
+
+/*editing*/
+#instructionsEditBar, #instructionsEditBar #optionsMenu, #instructionsSetsListMenu, #instructionsEditBar .flyout, .themeBackground, .newInstructionsSetMenu, .manage-columns-menu {
+    background-color: #323232;
+    color: #fff;
+}
+
+#activitiesList .activityGroup {
+    background-color: #323232;
+}
+
+#instructionsEditBar #optionsMenu, #instructionsEditBar #instructionsSetsListMenu, #instructionsEditBar .flyout, .newInstructionsSetMenu {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(118, 118, 118);
+}
+
+table.zebra tbody tr:nth-child(odd) {
+    background-color: #323232;
+}
+
+#instructionsEditBar #optionsMenu select {
+    background-color:#1d1d1d;
+}
+
+#instructionsEditBar #theme option {
+    background-color: #000;
+    color: #fff;
+}
+
+#instructionsSetsListMenu .instructionsSetListOption.selected:before {
+    color: #84f651;
+}
+
+#manageInstructionsSets {
+    background-color: #1d1d1d;
+}
+
+.instructionsSetRow input[type="text"], .instructionsSetRow select {
+    border-color: white;
+}
+
+.switchContainer .slider { /*slider background "off" */
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#outputWrapper, #splitter {
+    background-color: #000;
+}
+
+.instructionsPreview .page {
+    background-color: #1d1d1d;
+}
+
+.replacementToken {
+    color: #4ec9b0;
+}
+
+
+
+/*virtualization*/
+div.machine.selected, div.contentResource.selected {
+    background-color: #4a4a4a;
+}
+
+.activityScript {
+    border-color: #d8d8d8;
+}
+
+.activityScriptEditor{
+    filter:none;
+}
+
+
+
+.navigationBar{
+    background-color:#323232;
+}
+
+.star {
+    color: gold;
+}
+
+.codeTable {
+    background-color: #323232;
+}
+
+tbody tr:nth-child(2).codeTableRow {
+    border-top: 1px solid grey;
+}
+
+.questionLink {
+    padding-left: 5px;
+    color: #fff !important;
+}
+
+div.ui-tooltip {
+    background-color: #323232 !important;
+    border: solid 1px #fff !important;
+}
+
+.ui-widget-content {
+    border: 1px solid #1d1d1d !important;
+    background: #1d1d1d !important;
+    color: #fff !important;
+}
+
+.codelab-dialog .codelab-dialog-settings code {
+    border-top: 0;
+    background: #333;
+}
+
+.codelab-dialog .codelab-dialog-test-btn {
+    color: #fff;
+}
+
+.codelab-dialog .codelab-dialog-input-btn {
+    color: #fff;
+}
+
+.codelab-dialog .codelab-dialog-add-lang {
+    color: #fff;
+}
+
+.codelab-dialog .codelab-dialog-langtab.active {
+    border-bottom-color: #00ffff;
+}
+
+.codelab-dialog .codelab-dialog-settings-tab.active {
+    border-bottom-color: #fff;
+}
+
+.codelab-dialog .codelab-dialog-add-lang {
+    background: #333;
+}
+
+.codelab-dialog .codelab-dialog-custom-option {
+    background: #333;
+}
+
+.codelab-dialog .codelab-dialog-custom-select {
+    background: #333;
+}
+
+.codelab-dialog .codelab-dialog-custom-option:hover {
+    background: #444;
+}
+
+.codelab-dialog .codelab-dialog-code {
+    color: #333;
+}
+
+.codelab-dialog .monacoDiv .monacoFull {
+    background: #333;
+}
+
+
+.ai-output {
+    background-color: #4a4a4a;
+}
+
+.thumbs-up.selected::before {
+    color: #84f651;
+}
+
+.thumbs-down.selected::before {
+    color: orangered;
+}
+
+.ai-completion-type-selector {
+    border: solid 1px #fff;
+    background: #323232;
+}
+
+.ai-completion-type-selector .option {
+    background: #323232;
+}
+
+.ai-completion-type-selector .option:hover {
+    background: rgba(0, 0, 0, .35);
+}
+
+.ai-chat .ai-chat-header {
+    background-color: #323232;
+    border-bottom: solid 2px #1d1d1d;
+}
+
+/*Used in DualDisplayScriptLCA and the old layout*/
+.scriptButtonSquare:not(:hover) {
+    background-color: #1d1d1d;
+}
+
+.scriptButtonSquare:not(:hover) {
+    background-color: #444444 !important;
+}
+
+.scriptButton {
+    background-color: #201F22 !important;
+}
+
+.scriptButton:hover {
+    background-color: #2B2B2B !important;
+}
+
+.scriptButton:active {
+    border-radius: 4px;
+    background: #2B2B2B;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.freshScript {
+    background-color: #201F22;
+}
+
+.scriptDescriptionDiv, .scriptSourceTab, .promptInstructions {
+    background-color: #1d1d1d;
+}
+
+.promptNewLineButton {
+    background: #212121;
+}
+.ui-widget-content a {
+    color: #fff !important;
+}
+
+.ui-widget-header {
+    color: #fff !important;
+    background: #1d1d1d !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ui-widget-content {
+    border: 1px solid #1d1d1d !important;
+    background: #1d1d1d !important;
+    color: #fff !important;
+}
+
+.ui-widget-content a.navigationLink {
+    color: #4894fe !important;
+}
+
+.ui-dialog, .ui-datepicker, .ui-timepicker-table {
+    border: solid 1px #fff !important;
+}
+
+.ui-datepicker .ui-state-highlight {
+    color: #fff !important;
+}
+
+.ui-dialog-title {
+    color: #fff !important;
+}
+
+.ui-dialog-buttonpane .ui-button.primary {
+    color: #ffffff;
+    background-color: #0078d7;
+    border: solid 1px #0078d7;
+}
+
+.ui-dialog-buttonpane .ui-button.primary:hover {
+    background-color: #006cc2;
+    border: solid 1px #004175;
+}
+
+.ui-dialog-buttonpane .ui-button.primary:active {
+    background-color: #005497;
+}
+
+.ui-dialog-titlebar-close {
+    color: white !important;
+}
+
+.checkbox {
+    color: #fff;
+}
