@@ -5,6 +5,8 @@ theme: just-the-docs
 aux_links:
   "TechExcel Modernize applications to be AI ready": 
     - "https://github.com/microsoft/TechExcel-Modernize-applications-to-be-AI-ready"
+    
+run: bundle exec jekyll build --source ./Docs --destination ./Docs/_site
 
 callouts_level: quiet # or loud
 callouts:
